@@ -40,7 +40,7 @@ The results are saved to a text file called collector_domainlist.txt in the same
 ## Disclaimer
 The Collector.py (lite) is only intended for ethical hacking and educational purposes. Do not use this tool for any illegal activities. The author of this tool is not responsible for any damages caused by the misuse of this tool.
 
-### Use at your own risk! Better with Tor rooted traffic!
+### Use at your own risk! Better with Tor rooted traffic to scan target onion sites!
 
 ## Copyright
 by S. Volkan Kücükbudak
