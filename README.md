@@ -42,5 +42,5 @@ The Collector.py (lite) is only intended for ethical hacking and educational pur
 
 ### Use at your own risk! Better with Tor rooted traffic!
 
-## Credits
+## Copyright
 by S. Volkan Kücükbudak
