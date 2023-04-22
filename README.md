@@ -1,4 +1,4 @@
-# The Collector.py (lite) v. 2023
+# The Collector.py (lite)
 ###### RedTeam Black-Python Scripts
 **Warning: This tool is only for educational and ethical hacking purposes. Do not use it for any malicious activities. Use at your own risk.**
 
