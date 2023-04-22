@@ -4,7 +4,7 @@
 
 The Collector.py (lite) is a RedTeam Black-Python Script designed to help in finding BAD sites. This script is part of a larger collection and was created to be used with caution. Some functions have been removed to prevent any malicious attacks, but it remains a simple yet powerful script that can be used to scan for bad sites.
 
-# Installation
+## Installation
 To use The Collector.py (lite), you need to have Python 3 installed on your machine, as well as the following Python packages: requests, progress, and BeautifulSoup.
 
 You can install the required packages by running the following command:
@@ -12,12 +12,12 @@ You can install the required packages by running the following command:
 ```shell
 pip install requests progress BeautifulSoup4
 ```
-# How it works
+## How it works
 The Collector.py (lite) works by scraping a given URL and all its links, then searching for a specified keyword within the HTML content. If the keyword is found, the URL is added to a list of bad sites.
 
 The script uses the requests package to make HTTP requests, BeautifulSoup to parse the HTML content, and progress to display a progress bar during the scanning process.
 
-# Usage
+## Usage
 To use The Collector.py (lite), simply run the script and provide the starting URL and the keyword you want to search for as command-line arguments:
 
 ```shell
