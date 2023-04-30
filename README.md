@@ -43,4 +43,8 @@ The Collector.py (lite) is only intended for ethical hacking and educational pur
 ### Use at your own risk! Better with Tor rooted traffic to scan target onion sites!
 
 ### Copyright
-by S. Volkan Kücükbudak
+- [VolkanSah on Github](https://github.com/volkansah)
+- [Developer Site](https://volkansah.github.io)
+- [Become a 'Sponsor'](https://github.com/sponsors/volkansah)
+## License
+This project is licensed under the MIT - see the [LICENSE](LICENSE) file for details.
