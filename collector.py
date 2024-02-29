@@ -14,10 +14,10 @@ def find_links(url):
     try:
         response = requests.get(url)
     except Exception as e:
-        print(f"Error beim Zugriff auf URL {url}: {e}")
+        print(f"Error accessing URL {url}: {e}")
         return
     if response.status_code != 200:
-        print(f"Error beim Zugriff auf URL {url}: Statuscode {response.status_code}")
+        print(f"Error accessing URL {url}: Statuscode {response.status_code}")
         return
     visited_links.add(url)
     soup = BeautifulSoup(response.text, 'html.parser')
@@ -25,16 +25,16 @@ def find_links(url):
     for keyword in keywords:
         if keyword and keyword.lower() in response.text.lower():
             bad_sites.append(url)
-            print(f"BAD Site gefunden: {url}")
+            print(f"BAD Site found: {url}")
             break
-    with Bar('Verfolge Links...', max=len(links)) as bar:
+    with Bar('Follow links...', max=len(links)) as bar:
         for link in links:
             href = link['href']
             if not (href.startswith('http') or href.startswith('https')):
                 continue
             if href not in visited_links:
                 bar.next()
-                print(f"Besuche: {href}")
+                print(f"Visits: {href}")
                 find_links(href)
                 time.sleep(2)
 find_links(URL)
